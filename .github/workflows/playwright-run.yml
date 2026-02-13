@@ -146,6 +146,6 @@ jobs:
       - name: Report URLs
         run: |
           echo "Reports Published!"
-          echo "Playwright Built-in: https://github.com/PriyankaNigade18/LivePracticePlaywright/playwright-report/index.html"
-          echo "Playwright HTML Reporter: https://github.com/PriyankaNigade18/LivePracticePlaywright/playwright-html-report/index.html"
-          echo "Allure: https://github.com/PriyankaNigade18/LivePracticePlaywright/allure-report/index.html"
+          echo "Playwright Built-in: https://github.com/PriyankaNigade18/PlaywrightFrameworkGithubaction/playwright-report/index.html"
+          echo "Playwright HTML Reporter: https://github.com/PriyankaNigade18/PlaywrightFrameworkGithubaction/playwright-html-report/index.html"
+          echo "Allure: https://github.com/PriyankaNigade18/PlaywrightFrameworkGithubaction/allure-report/index.html"

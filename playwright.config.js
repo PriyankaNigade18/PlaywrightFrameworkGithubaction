@@ -47,7 +47,8 @@ export default defineConfig({
     screenshot:"on",
     video:"on",
     slowMo: 500,
-    ignoreHTTPSErrors: true
+    ignoreHTTPSErrors: true,
+    headless:true
 
   },
   // metadata:{

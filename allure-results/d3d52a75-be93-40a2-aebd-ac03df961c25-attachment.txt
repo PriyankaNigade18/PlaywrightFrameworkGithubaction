@@ -1,0 +1,2 @@
+Product added into cart: Sauce Labs Fleece Jacket
+locator('.inventory_item_name')

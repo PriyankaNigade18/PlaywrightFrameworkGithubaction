@@ -53,6 +53,6 @@ test("Test login with baseUrl and metadata from config file",async({page,loginUs
     await page.waitForTimeout(2000);
 })
 
-test.only("Test login from csv data",async({page,loginPageCSV})=>{
+test("Test login from csv data",async({page,loginPageCSV})=>{
     await page.waitForTimeout(2000);
 })

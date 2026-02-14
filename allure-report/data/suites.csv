@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7841","Test login with fixture json @smoke","chromium","2026-02-14","passed","2026-02-14","","LoginPage.spec.js","",""
+"","8048","Test login with valid credentials @smoke","chromium","2026-02-14","passed","2026-02-14","","LoginPage.spec.js","",""
+"","7436","Test login with fixture @smoke","chromium","2026-02-14","passed","2026-02-14","","LoginPage.spec.js","",""

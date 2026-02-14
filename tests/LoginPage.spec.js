@@ -4,7 +4,7 @@ import {LoginPage} from "../pages/LoginPage.js"
 import {expect} from "@playwright/test"
 
 
-test("Test login with valid credentials",async({page})=>{
+test("Test login with valid credentials @smoke",async({page})=>{
 
     const loginpage=new LoginPage(page);
     await loginpage.gotoUrl();
@@ -15,12 +15,12 @@ test("Test login with valid credentials",async({page})=>{
     await page.waitForTimeout(2000);
 })
 
-test("Test login with fixture",async({page,loginUser})=>{
+test("Test login with fixture @smoke",async({page,loginUser})=>{
 
     await page.waitForTimeout(2000);
 })
 
-test("Test login with fixture json",async({page,loginUserJson})=>{
+test("Test login with fixture json @smoke",async({page,loginUserJson})=>{
 
     await page.waitForTimeout(2000);
 })
@@ -50,5 +50,9 @@ test("Test login without username and with password",async({page})=>{
 test("Test login with baseUrl and metadata from config file",async({page,loginUserWithMetaData})=>{
 
     
+    await page.waitForTimeout(2000);
+})
+
+test.only("Test login from csv data",async({page,loginPageCSV})=>{
     await page.waitForTimeout(2000);
 })

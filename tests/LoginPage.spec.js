@@ -20,7 +20,7 @@ test("Test login with fixture @smoke",async({page,loginUser})=>{
     await page.waitForTimeout(2000);
 })
 
-test.skip("Test login with fixture json @smoke",async({page,loginUserJson})=>{
+test.skip("Test login with fixture json ",async({page,loginUserJson})=>{
 
     await page.waitForTimeout(2000);
 })

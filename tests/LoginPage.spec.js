@@ -4,7 +4,7 @@ import {LoginPage} from "../pages/LoginPage.js"
 import {expect} from "@playwright/test"
 
 
-test("Test login with valid credentials @smoke",async({page})=>{
+test("Test login with valid credentials @smoke @this",async({page})=>{
 
     const loginpage=new LoginPage(page);
     await loginpage.gotoUrl();

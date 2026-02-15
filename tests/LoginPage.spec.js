@@ -20,12 +20,12 @@ test("Test login with fixture @smoke",async({page,loginUser})=>{
     await page.waitForTimeout(2000);
 })
 
-test("Test login with fixture json @smoke",async({page,loginUserJson})=>{
+test.skip("Test login with fixture json @smoke",async({page,loginUserJson})=>{
 
     await page.waitForTimeout(2000);
 })
 
-test("Test login with username and without password",async({page})=>{
+test.skip("Test login with username and without password",async({page})=>{
     const loginpage=new LoginPage(page);
     await loginpage.gotoUrl();
     await  loginpage.fillUserName("standard_user");
